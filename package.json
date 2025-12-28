@@ -1,5 +1,5 @@
 {
-  "name": "@anthropic/preview",
+  "name": "@zos-apps/preview",
   "version": "1.0.0",
   "type": "module",
   "main": "./dist/index.js",
@@ -11,9 +11,14 @@
     "icon": "👁️",
     "category": "system",
     "description": "Quick Look file preview",
-    "permissions": ["files.read"],
+    "permissions": [
+      "files.read"
+    ],
     "window": {
-      "defaultSize": { "width": 800, "height": 600 },
+      "defaultSize": {
+        "width": 800,
+        "height": 600
+      },
       "resizable": true
     }
   },
@@ -30,5 +35,23 @@
     "@types/react-dom": "^18.3.0",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2"
-  }
+  },
+  "description": "Quick Look file preview",
+  "homepage": "https://zos-apps.github.io/preview",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/preview.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/preview/issues"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "keywords": [
+    "zos",
+    "app",
+    "preview",
+    "macos",
+    "desktop"
+  ]
 }

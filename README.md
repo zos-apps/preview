@@ -1,42 +1,54 @@
 # 👁️ Preview
 
-Quick Look file preview for zOS.
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/zos-apps/preview/releases)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Docs](https://img.shields.io/badge/docs-online-purple.svg)](https://zos-apps.github.io/preview)
 
-## Features
+> Quick Look file preview
 
-- **Image Preview** - View images with zoom controls
-- **Video Player** - Play video files with controls
-- **Audio Player** - Listen to audio files
-- **PDF Viewer** - Read PDF documents
-- **Code Viewer** - Syntax-highlighted code files
-- **Text Preview** - View any text file
-- **Drag & Drop** - Drop files to preview instantly
-
-## Supported Formats
-
-| Type | Extensions |
-|------|------------|
-| Images | PNG, JPG, GIF, SVG, WebP |
-| Video | MP4, WebM, MOV |
-| Audio | MP3, WAV, OGG, M4A |
-| Documents | PDF |
-| Code | JS, TS, TSX, JSX, PY, GO, RS, SH |
-| Text | TXT, MD, JSON, HTML, CSS |
+**[Documentation](https://zos-apps.github.io/preview)** • **[App Store](https://zos-apps.github.io/app-store)** • **[All Apps](https://github.com/zos-apps)**
 
 ## Installation
 
 ```bash
-npm install @anthropic/preview
+npm install github:zos-apps/preview
 ```
+
+Or install via the [zOS App Store](https://zos-apps.github.io/app-store).
 
 ## Usage
 
 ```tsx
-import Preview from '@anthropic/preview';
+import Preview from '@zos-apps/preview';
 
-<Preview onClose={() => setOpen(false)} />
+function App() {
+  return <Preview />;
+}
 ```
+
+## Features
+
+- Native zOS window integration
+- Dark mode support
+
+- Context menu actions
+- Menu bar integration
+
+## Category
+
+**System**
+
+## Permissions
+
+- `files.read`
+
+## Links
+
+- [Documentation](https://zos-apps.github.io/preview)
+- [GitHub Repository](https://github.com/zos-apps/preview)
+- [Report Issues](https://github.com/zos-apps/preview/issues)
+- [All zOS Apps](https://github.com/zos-apps)
 
 ## License
 
-MIT
+MIT © [Hanzo AI](https://hanzo.ai)
