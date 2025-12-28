@@ -20,7 +20,22 @@
         "height": 600
       },
       "resizable": true
-    }
+    },
+    "about": "View and annotate images and PDF documents.",
+    "help": [
+      "Open files to view",
+      "Use markup toolbar",
+      "Export in various formats"
+    ],
+    "docs": "https://zos-apps.github.io/preview",
+    "site": "https://github.com/zos-apps/preview",
+    "features": [
+      "Image viewing",
+      "PDF support",
+      "Annotations",
+      "Markup tools",
+      "Export"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -53,5 +68,13 @@
     "preview",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
