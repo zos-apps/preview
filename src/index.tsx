@@ -1,4 +1,4 @@
-import React, { useState, useCallback, useRef, DragEvent } from 'react';
+import { useState, useCallback, useRef, DragEvent } from 'react';
 
 interface PreviewProps {
   onClose: () => void;
@@ -34,7 +34,7 @@ const getFileIcon = (type: string, name: string): string => {
   return '📎';
 };
 
-const Preview: React.FC<PreviewProps> = ({ onClose }) => {
+const Preview: React.FC<PreviewProps> = ({ onClose: _onClose }) => {
   const [file, setFile] = useState<FileInfo | null>(null);
   const [isDragging, setIsDragging] = useState(false);
   const [zoom, setZoom] = useState(100);
